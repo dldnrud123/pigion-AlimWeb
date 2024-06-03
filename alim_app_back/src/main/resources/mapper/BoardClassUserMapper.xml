@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.alim.demo.repository.mybatis.BoardClassUserMapper">
+	<select id="findBoardUserByBoardId" resultType="com.alim.demo.dto.BoardClassUserDTO">
+        SELECT A.board_id,
+        	   A.user_id,
+        	   A.re_noti_yn,
+        	   A.like_yn,
+        	   A.view_yn,
+        	   A.create_date,
+        	   A.update_date,
+       		   B.user_profile_img profileImg,
+       		   B.user_email email, 
+       		   C.real_name,
+       		   C.reader_yn,
+       		   C.permission_yn,
+       		   C.active_yn
+        FROM board_user_tb A
+            JOIN user_info_tb B 
+            	ON B.user_id = A.user_id
+           	JOIN class_user_tb C
+           		ON C.user_id = A.user_id
+        WHERE A.board_id = #{boardId}
+        	AND C.cls_id = #{clsId} 
+        	AND C.active_yn = 'Y' 
+      	ORDER BY A.create_date
+	</select>
+
+
+	
+</mapper>
+
+

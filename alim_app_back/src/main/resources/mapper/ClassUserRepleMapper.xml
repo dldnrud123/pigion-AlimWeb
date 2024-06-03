@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.alim.demo.repository.mybatis.ClassUserRepleMapper">
+	<select id="findReplyUserClsUser" resultType="com.alim.demo.dto.ClassUserRepleDTO">
+        SELECT A.reply_seq,
+        	   A.board_id,
+        	   A.user_id,
+        	   A.reply_text,
+        	   A.reply_level,
+        	   A.parent_reply_seq,
+        	   A.create_date,
+        	   A.update_date,
+       		   C.real_name,
+       		   C.reader_yn,
+       		   C.permission_yn,
+       		   C.active_yn,
+       		   B.user_profile_img profileImg
+      	FROM board_reple_tb A 
+	        JOIN user_info_tb B 
+	        	ON B.user_id = A.user_id 
+	        JOIN class_user_tb C 
+	        	ON C.user_id = B.user_id 
+        WHERE A.board_id = #{boardId} 
+        	AND C.cls_id = #{clsId} 
+        	AND B.active_yn = 'Y' 
+        	AND C.active_yn = 'Y'
+       	ORDER BY A.reply_seq
+	</select>
+	
+	
+</mapper>
+
+
+
