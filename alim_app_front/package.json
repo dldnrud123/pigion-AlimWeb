@@ -1,0 +1,39 @@
+{
+  "name": "alim_app_front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1608.0",
+    "axios": "^1.6.8",
+    "date-fns": "^3.6.0",
+    "firebase": "^10.11.1",
+    "firebase-admin": "^12.1.0",
+    "http-proxy-middleware": "^3.0.0",
+    "next": "14.1.4",
+    "next-auth": "^4.24.7",
+    "react": "^18.3.0",
+    "react-datepicker": "^6.6.0",
+    "react-dom": "^18.3.0",
+    "react-hook-form": "^7.51.3",
+    "react-lottie-player": "^2.0.0",
+    "react-quill": "^2.0.0",
+    "react-router-dom": "^6.22.3",
+    "sanitize-html": "^2.13.0",
+    "web-push": "^3.6.7"
+  },
+  "devDependencies": {
+    "@hookform/devtools": "^4.3.1",
+    "@types/react": "18.2.75",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
+  }
+}
