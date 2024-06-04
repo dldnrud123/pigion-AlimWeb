@@ -46,12 +46,14 @@
 <li>
 <h4>클래스 검색기능</h4>
   
-<p>클래스주소로 검색하여 비밀번호를 입력하여 클래스회원으로 등록할 수 있도록 구현하였습니다.</p>
+<p>클래스주소로 검색 후, 비밀번호를 입력하여 클래스회원으로 등록 및 입장 할 수 있도록 구현하였습니다.</p>
 <img src="https://github.com/dldnrud123/yam/assets/49900271/5d593715-1db0-4358-9f4d-1fb7753edfef" width=600px />
 </li>
 </ul>
 <br>
 <br>
-읽어봐 주셔서 감사합니다 :D <br><br>
-<h2>더욱 자세한 내용은 PDF자료 및 시연영상을 확인해주세요!</h2>
+
+<p><a href="https://github.com/dldnrud123/pigion-AlimWeb/blob/main/PIGEON_%EC%95%8C%EB%A6%BC%EC%9E%A5%20%EC%84%A4%EB%AA%85.pdf">더 자세한 내용보기 GO >> </a></p>
 <br>
+<br>
+읽어봐 주셔서 감사합니다 :D <br><br>
