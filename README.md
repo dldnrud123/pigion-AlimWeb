@@ -8,7 +8,7 @@
 <p>React(NextJS14)</p>
 
 <h3>* Backend</h3>
-<p>SpringBoot</p>
+<p>SpringBoot(JPA JPQL MYBATIS)</p>
 
 <h3>* DB</h3>
 <p>MYSQL</p>
