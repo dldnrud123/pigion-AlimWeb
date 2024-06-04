@@ -5,10 +5,10 @@
 
 
 <h3>* Frontend</h3>
-<p>React(NextJS14)</p>
+<p>React (NextJS14)</p>
 
 <h3>* Backend</h3>
-<p>SpringBoot(JPA JPQL MYBATIS)</p>
+<p>SpringBoot (JPA JPQL MYBATIS)</p>
 
 <h3>* DB</h3>
 <p>MYSQL</p>
