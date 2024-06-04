@@ -39,7 +39,7 @@
 <li>
 <h4>소셜 간편로그인 기능</h4>
   
-<p>next-auth와 api를 이용하여네이버 및 카카오톡 간편로그인을 할 수 있도록 구현하였습니다. </p>
+<p>next-auth와 api를 이용하여 네이버 및 카카오톡 간편로그인을 할 수 있도록 구현하였습니다. </p>
 <img src="https://github.com/dldnrud123/yam/assets/49900271/f9de0557-74b9-4d8b-9c72-9b685b1774a5" width=600px />
 </li>
 <li>
@@ -53,6 +53,8 @@
 <br>
 
 <p><a href="https://github.com/dldnrud123/pigion-AlimWeb/blob/main/PIGEON_%EC%95%8C%EB%A6%BC%EC%9E%A5%20%EC%84%A4%EB%AA%85.pdf">더 자세한 내용보기 GO >> </a></p>
+<p><a href="https://dldnrud123.github.io/profile/">개발자 프로필 사이트 GO >> </a></p>
+<br>
 <br>
 <br>
 읽어봐 주셔서 감사합니다 :D <br><br>
